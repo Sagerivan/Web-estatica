@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./recursos/imagenes/logo.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./recursos/styles/index.css">
+    <title>Moda Femenina</title>
+    
+</head>
+<body>
+  <img id="fondoPantalla" src="./recursos/imagenes/fondo2.jpg" alt="fondoRosa">
+  <div id="inicio"></div>
+  <header>
+    
+    <nav >
+      <div class="primerBarra" >
+        <img class="imgPrimeraBarra" src="./recursos/imagenes/purpurina33.jpg" alt="purpurinas">
+        <h1 class="tituloPrincipal">Moda Femenina Rubi</h1>
+        <img class="logoPrincipal" src="./recursos/imagenes/logo.jpg" alt="ropa femenina rubi">
+        <a class="nav-item volver" href="../../index.html">Volver al Portafolio</a>
+        
+      </div>
+    
+      <ul class="segundaBarra">
+        <li class="nav-item"><a class="nav-item linkNav active"  href="#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-item linkNav" href="#productos">Productos</a></li>
+        <li class="nav-item"><a class="nav-item linkNav" href="#nosotros">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-item linkNav" href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <h2 class="tituloPortada">Sé auténtica, sé feliz.</h2>
+    <img class="imagenPortada" src="./recursos/imagenes/portada.jpg" alt="">
+    
+  </header>
+  
+  <main id="productos" class="producto">
+    
+    <ul class="listaProductos">
+      <li class="nav-item imagenMain"><a class="nav-item hover" href="">Pijamas <img class=" imgSola" src="./recursos/imagenes/pijama2.jpg" alt=""></a></li>
+      <li class="nav-item imagenMain"><a class="nav-item hover" href="">Bikinis <img class="imgSola" src="./recursos/imagenes/bikini2.jpg" alt=""></a></li>
+      <li class="nav-item imagenMain"><a class="nav-item hover" href="">Lenceria <img class=" imgSola" src="./recursos/imagenes/lenceria1.jpg" alt=""></a></li>
+    </ul>
+    
+  </main>
+ 
+  <aside id="nosotros">
+    <div class="contenedorAside">
+      <img class="imgAside" src="./recursos/imagenes/logo.jpg" alt="">
+      <p class="card-text">En Rubi, creemos en la belleza y la confianza que la lencería adecuada puede brindar a todas las mujeres.
+        Nos enorgullece ofrecerte una exquisita colección de prendas íntimas diseñadas para realzar tu feminidad y hacerte sentir empoderada en cualquier momento.</p>
+    </div>
+
+  </aside>
+
+  <article id="contacto" class="seccionForm"> 
+      <div class="grupoContacto">
+        <form action="https://formspree.io/f/xpzgggrk" method="POST">
+          <label class="tituloContacto">¿Tienes alguna pregunta o comentario? ¡Contáctanos!</label>
+
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="descrpcion">Descripcion</label>
+          <textarea name="descrpcion" id="descrpcion"  required></textarea>
+
+          <input class="submit" type="submit">
+          
+        </form>
+        
+        <ul class="listaContacto ">
+          <li class="tituloContacto tituloContacto2 nav-item">Nuestras Redes</li>
+          <li class="nav-item listaItem"><a href="" class="nav-item linkContacto"> WhatsApp <img class="imagenContacto" src="./recursos/iconos/whatsapp.svg" alt="whatsapp"></a></li>
+          <li class="nav-item listaItem"><a href="" class="nav-item linkContacto">Facebook <img class="imagenContacto" src="./recursos/iconos/facebook.svg" alt="facebook"></a></li>
+          <li class="nav-item listaItem"><a href="" class="nav-item linkContacto">Instagram<img class="imagenContacto" src="./recursos/iconos/instagram.svg" alt="instagram"></a></li>
+        </ul>
+      </div>
+    
+  </article>
+
+  <footer class="">
+    
+        <p id="productos">&copy; 2023 Rubi moda femenina</p>
+    
+</footer>
+
+
+</body>
+<script src="./recursos/js/js.js"></script>
+</html>

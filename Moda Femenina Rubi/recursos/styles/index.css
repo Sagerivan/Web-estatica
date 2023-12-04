@@ -5,7 +5,7 @@
 }
 
 *{
-    font-family:"segoe print";
+    font-family:"segoe print", cursive, sans-serif;
     scroll-behavior: smooth;
 }
 
